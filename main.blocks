@@ -1,1 +1,19 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="wd!k;4)ig#4p7H@{!B?7" x="0" y="0"/><block type="device_forever" id="i02bJNJi(hL2D5FdvG(j" x="205" y="0"/></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="wd!k;4)ig#4p7H@{!B?7" x="10" y="-293"><statement name="HANDLER"><block type="device_show_leds" id="ct95/.=pyWp^Qr_4~.zC"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement></block><block type="device_button_event" id="H6#mu5peOHFxXQ!8krsX" x="272" y="-298"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_stop_melody" id="z(3%@6UVrtbj+Hr6HL={"><field name="options">MelodyStopOptions.All</field></block></statement></block><block type="device_gesture_event" id="epDP{[2f4eBb5hgI,SO7" x="327" y="-152"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="playMelody" id="^qwd*_B~Jv.#nd~+Q*Nk"><value name="melody"><shadow type="melody_editor" id="jx`SgX/Z?0RM?b~Y9h.9"><field name="melody">"C5 C5 C5 B B B A A "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="Z/KTbKFS]})0Z4]eAZW7"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value><next><block type="playMelody" id="O$RtiPvLGNN(bdH_YX#3"><value name="melody"><shadow type="melody_editor" id="V$[`,wVmWMfn8_i@LtER"><field name="melody">"A G G G F F F E "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="tV)B6!:E!h,6vf}vhBo:"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value><next><block type="playMelody" id="|(H/KYh?lkG)TF(hn:3."><value name="melody"><shadow type="melody_editor" id="rKcy.Od)!5-G/paq0k[A"><field name="melody">"E E D D D C C C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="lo{*Rp,juWv]`!87C52y"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value></block></next></block></next></block></statement></block><block type="device_button_event" id="2sq[#9|04VK@TWbz;VoS" x="7" y="26"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="synth_set_volume" id="/M:nLxZKqmikID%nhvMB"><value name="volume"><shadow type="math_number_minmax" id="xf(6,6YE+RZT]A1{h[+B"><mutation min="0" max="255" label="Volume" precision="0"/><field name="SLIDER">255</field></shadow></value><next><block type="device_start_melody" id="r=J6(Sg,RwImkjPApSUo"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="H$r);PYx@aXgLOAQ?f/y"><field name="melody">Melodies.Dadadadum</field></block></value><next><block type="device_show_leds" id=";fp2,V2ig(qL~UNlIndC"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field></block></next></block></next></block></statement></block><block type="device_button_event" id="Bs_4|znMpH]5yBcz2H+C" x="14" y="442"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="playMelody" id="(dlDXbkk2F(YJ(DQL7HT"><value name="melody"><shadow type="melody_editor" id="cCieG5P^P6*To2E;DeQr"><field name="melody">"C5 A B G A F G E "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="w}^#ubRK?4fK`mp*38ZO"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value><next><block type="device_show_leds" id="L?ha49C?a2Gi@PLpRx*6"><field name="LEDS">`
+        # # # . # 
+        . . # . # 
+        # # . # # 
+        # . # . . 
+        # . # # #
+        `</field></block></next></block></statement></block></xml>
